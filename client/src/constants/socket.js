@@ -1,0 +1,5 @@
+export const ConnectionStatus = {
+    CONNECTED: 'CONNECTED',
+    CONNECTING: 'CONNECTING',
+    DISCONNECTED: 'DISCONNECTED'
+}

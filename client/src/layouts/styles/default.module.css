@@ -1,0 +1,63 @@
+.header {
+    background: white;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.header .title {
+    margin: 0 16px;
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.header .profile {
+    padding: 0 16px;
+}
+
+.header .profile:hover {
+    background: rgba(0, 0, 0, .025);
+}
+
+.header .profile .name {
+    font-weight: bold;
+}
+
+.header .profile .status {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    top: 5px;
+    right: 5px;
+}
+
+.header .profile .connected {
+    background-color: limegreen;
+}
+
+.header .profile .disconnected {
+    background-color: red;
+}
+
+.header .profile .connecting {
+    background-color: yellow;
+}
+
+.header .profile .avatar {
+    background: red;
+    margin-left: 10px;
+}
+
+.footer {
+    padding: 8px 16px;
+    background: #f0f2f5;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, .15);
+    color: rgba(0, 0, 0, .45);
+
+}

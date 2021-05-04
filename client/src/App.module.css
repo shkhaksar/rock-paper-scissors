@@ -1,0 +1,14 @@
+.sider {
+    padding: 0 8px;
+    min-height: 300px;
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-left: 1px solid rgba(0, 0, 0, .15);
+}
+
+.content {
+    background: white;
+    padding: 16px;
+    display: flex;
+}

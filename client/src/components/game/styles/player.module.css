@@ -1,0 +1,16 @@
+.card {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    padding: 16px;
+    font-size: 24px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+}

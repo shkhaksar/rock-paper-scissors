@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper .welcome {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.wrapper .start {
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 32px;
+    height: auto;
+}

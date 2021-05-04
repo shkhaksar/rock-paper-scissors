@@ -1,0 +1,21 @@
+.wrapper {
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #dfdfdf;
+}
+
+.disabled {
+    opacity: 0.4;
+}
+
+.emoji {
+    margin: 0;
+    font-size: 125px;
+}
+
+.name {
+    text-transform: capitalize;
+    font-size: 32px;
+    margin: 0;
+}
+
