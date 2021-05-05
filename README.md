@@ -5,7 +5,7 @@
 ### Backend Server (NodeJS)
 It's Assumed to run on Port `8000`. However, If you want to run it on another port, the configuration can be found under `/backend/bin/www`.
 
-###Client (ReactJS):
+### Client (ReactJS):
 The client has no configuration except for `BASE_URL`, which can be found under `/client/src/config.js`
 
 P.S.: You can start as many clients as you want.
