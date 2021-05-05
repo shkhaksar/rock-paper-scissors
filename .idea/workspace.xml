@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="195be2da-1850-4660-8f93-4496dfd73366" name="Default Changelist" comment="Dockerised the client">
-      <change afterPath="$PROJECT_DIR$/client/nginx.conf" afterDir="false" />
+    <list default="true" id="195be2da-1850-4660-8f93-4496dfd73366" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/client/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
       <updated>1620161738476</updated>
       <workItem from="1620161740687" duration="7000" />
       <workItem from="1620162072267" duration="459000" />
-      <workItem from="1620235004001" duration="1759000" />
+      <workItem from="1620235004001" duration="3123000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit.">
       <created>1620162190654</created>
@@ -85,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620235903502</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dockerised Client.">
+      <created>1620237398087</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620237398087</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated package-lock.json">
+      <created>1620237470219</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620237470219</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +119,8 @@
     <MESSAGE value="initial commit." />
     <MESSAGE value="Code cleanup." />
     <MESSAGE value="Added a .gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a .gitignore file" />
+    <MESSAGE value="Dockerised Client." />
+    <MESSAGE value="updated package-lock.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated package-lock.json" />
   </component>
 </project>
