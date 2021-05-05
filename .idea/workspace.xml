@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="195be2da-1850-4660-8f93-4496dfd73366" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +58,7 @@
       <updated>1620161738476</updated>
       <workItem from="1620161740687" duration="7000" />
       <workItem from="1620162072267" duration="459000" />
-      <workItem from="1620235004001" duration="3123000" />
+      <workItem from="1620235004001" duration="3456000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit.">
       <created>1620162190654</created>
@@ -97,7 +95,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620237470219</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated README.md">
+      <created>1620239002538</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620239002538</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated README.md">
+      <created>1620239028389</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620239028389</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated README.md">
+      <created>1620239047372</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620239047372</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +140,7 @@
     <MESSAGE value="Added a .gitignore file" />
     <MESSAGE value="Dockerised Client." />
     <MESSAGE value="updated package-lock.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated package-lock.json" />
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
   </component>
 </project>
