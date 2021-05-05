@@ -13,7 +13,7 @@ class Auth extends Component {
                 <div>
                     {this.props.children}
                 </div>
-                <Footer className={styles.footer}>{emoji('Made with ❤ by Mehdi Este')}</Footer>
+                <Footer className={styles.footer}>{emoji('Made with ❤')}</Footer>
             </div>
         );
     }

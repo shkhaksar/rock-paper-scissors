@@ -58,7 +58,7 @@ class Default extends Component {
                     </Dropdown>
                 </Header>
                 {this.props.children}
-                <Footer className={styles.footer}>{emoji('Made with ❤ by Mehdi Este')}</Footer>
+                <Footer className={styles.footer}>{emoji('Made with ❤')}</Footer>
             </Layout>
         );
     }
