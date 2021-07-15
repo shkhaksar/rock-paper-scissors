@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="195be2da-1850-4660-8f93-4496dfd73366" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +12,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -109,7 +115,7 @@
       <workItem from="1621936827405" duration="2024000" />
       <workItem from="1622225977806" duration="766000" />
       <workItem from="1622901113359" duration="145000" />
-      <workItem from="1626376188426" duration="1294000" />
+      <workItem from="1626376188426" duration="1997000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit.">
       <created>1620162190654</created>
@@ -174,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620239130549</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added .sqlite files to .gitignore">
+      <created>1626377792484</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626377792484</updated>
+    </task>
+    <task id="LOCAL-00011" summary="remove an unused import.">
+      <created>1626377836911</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1626377836911</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +219,8 @@
     <MESSAGE value="Dockerised Client." />
     <MESSAGE value="updated package-lock.json" />
     <MESSAGE value="Updated README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
+    <MESSAGE value="added .sqlite files to .gitignore" />
+    <MESSAGE value="remove an unused import." />
+    <option name="LAST_COMMIT_MESSAGE" value="remove an unused import." />
   </component>
 </project>
