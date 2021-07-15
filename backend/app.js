@@ -1,6 +1,5 @@
 const createError = require('http-errors');
 const express = require('express');
-const Redis = require("ioredis");
 const cors = require('cors');
 const path = require('path');
 const cookieParser = require('cookie-parser');
