@@ -1,10 +1,10 @@
 #Specify a base image
 FROM node:12-alpine
+
 #Copy the dependencies file
 COPY package.json .
-
-#Install dependencies
-RUN npm install --silent
+COPY package-lock.json .
+RUN npm ci --silent
 
 #Copy remaining files
 COPY . .
