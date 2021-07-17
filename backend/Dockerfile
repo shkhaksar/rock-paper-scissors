@@ -8,7 +8,5 @@ RUN npm ci --silent
 
 #Copy remaining files
 COPY . .
-
 EXPOSE 8000
-RUN npm run migrate
-ENTRYPOINT ["node", "./bin/www"]
+ENTRYPOINT ["bash","./entrypoint.sh"]
