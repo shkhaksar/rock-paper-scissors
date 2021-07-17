@@ -89,6 +89,8 @@ module.exports = function (app) {
                             p2.action === gameActions.ROCK ? game.winner = p2.id : game.winner = p1.id
                             break
                     }
+                } else {
+                    game.winner = -1
                 }
 
                 //Evaluate Game outcome and update its state
