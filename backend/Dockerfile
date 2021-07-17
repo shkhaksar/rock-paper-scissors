@@ -10,5 +10,5 @@ RUN npm ci --silent
 COPY . .
 
 EXPOSE 8000
-
+RUN npm run migrate
 ENTRYPOINT ["node", "./bin/www"]

@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="195be2da-1850-4660-8f93-4496dfd73366" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bin/redis.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bin/redis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <recent name="$PROJECT_DIR$/backend" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.client/Dockerfile">
+  <component name="RunManager" selected="Docker.backend/Dockerfile">
     <configuration name="Redis" type="docker-deploy" factoryName="docker-image" server-name="Docker">
       <deployment type="docker-image">
         <settings>
@@ -160,8 +158,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.client/Dockerfile" />
         <item itemvalue="Docker.backend/Dockerfile" />
+        <item itemvalue="Docker.client/Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +182,7 @@
       <workItem from="1626376188426" duration="4348000" />
       <workItem from="1626461473893" duration="813000" />
       <workItem from="1626462654038" duration="177000" />
-      <workItem from="1626462878037" duration="11646000" />
+      <workItem from="1626462878037" duration="12287000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit.">
       <created>1620162190654</created>
@@ -291,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626520397945</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Use redis-adapter for socket management.">
+      <created>1626522388232</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1626522388232</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +327,7 @@
     <MESSAGE value="Read Configuration from Environment variables instead of Hardcoded values." />
     <MESSAGE value="updated env example accordingly." />
     <MESSAGE value="install form package-lock.json in Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="install form package-lock.json in Dockerfile" />
+    <MESSAGE value="Use redis-adapter for socket management." />
+    <option name="LAST_COMMIT_MESSAGE" value="Use redis-adapter for socket management." />
   </component>
 </project>
