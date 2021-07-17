@@ -3,10 +3,13 @@
 /**
  * Module dependencies.
  */
+const config = require('../config.js');
 const app = require('../app');
 const debug = require('debug')('backend:server');
 const http = require('http');
 const socketIO = require('socket.io');
+const {createClient} = require('redis');
+const redisAdapter = require('@socket.io/redis-adapter');
 
 /**
  * Get port from environment and store in Express.
@@ -31,6 +34,11 @@ const io = socketIO(server, {
         "preflightContinue": false, "optionsSuccessStatus": 204
     }
 });
+//create redis adapter for socket.io
+const pubClient = createClient({host: config.redis.host, port: config.redis.port});
+const subClient = pubClient.duplicate();
+
+io.adapter(redisAdapter(pubClient, subClient));
 app.set('io', io)
 
 /**
@@ -52,7 +60,7 @@ function normalizePort(val) {
         return val;
     if (port >= 0)
         return port;
-    return false;
+    return 8000;
 }
 
 /**
