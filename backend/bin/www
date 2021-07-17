@@ -47,18 +47,11 @@ require('../routes/socket')(app);
  */
 
 function normalizePort(val) {
-    var port = parseInt(val, 10);
-
-    if (isNaN(port)) {
-        // named pipe
+    const port = parseInt(val, 10);
+    if (isNaN(port))
         return val;
-    }
-
-    if (port >= 0) {
-        // port number
+    if (port >= 0)
         return port;
-    }
-
     return false;
 }
 

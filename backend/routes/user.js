@@ -1,5 +1,5 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 const Joi = require('joi');
 const validateRequest = require('./middleware/validate-request');
 const authorize = require('./middleware/authorize')
