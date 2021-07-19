@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "create_db": "sequelize db:create",
     "migrate": "sequelize db:migrate",
     "seed": "sequelize db:seed:all",
     "start": "node ./bin/www"

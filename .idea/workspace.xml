@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="195be2da-1850-4660-8f93-4496dfd73366" name="Default Changelist" comment="Added entrypoint.sh to Dockerfile">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backend/entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +188,7 @@
       <workItem from="1626462878037" duration="13079000" />
       <workItem from="1626524705378" duration="3464000" />
       <workItem from="1626609316328" duration="5739000" />
-      <workItem from="1626714205343" duration="747000" />
+      <workItem from="1626714205343" duration="1067000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit.">
       <created>1620162190654</created>
@@ -337,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626704639713</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ignore favicon.">
+      <created>1626715003314</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1626715003314</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +381,8 @@
     <MESSAGE value="Added entrypoint.sh to Dockerfile" />
     <MESSAGE value="Fixed error in Dockerfile" />
     <MESSAGE value="Added Index router for health check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Index router for health check" />
+    <MESSAGE value="ignore favicon." />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore favicon." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
