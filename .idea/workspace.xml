@@ -4,6 +4,7 @@
     <list default="true" id="195be2da-1850-4660-8f93-4496dfd73366" name="Default Changelist" comment="Added entrypoint.sh to Dockerfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <recent name="$PROJECT_DIR$/backend" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.backend/Dockerfile">
+  <component name="RunManager" selected="Docker.Redis">
     <configuration name="Redis" type="docker-deploy" factoryName="docker-image" server-name="Docker">
       <deployment type="docker-image">
         <settings>
@@ -87,7 +88,7 @@
     <configuration name="backend/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
-          <option name="imageTag" value="rps/backend" />
+          <option name="imageTag" value="378887636905.dkr.ecr.eu-west-1.amazonaws.com/rps-client:latest" />
           <option name="buildOnly" value="true" />
           <option name="containerName" value="backend" />
           <option name="sourceFilePath" value="backend/Dockerfile" />
@@ -186,7 +187,8 @@
       <workItem from="1626462654038" duration="177000" />
       <workItem from="1626462878037" duration="13079000" />
       <workItem from="1626524705378" duration="3464000" />
-      <workItem from="1626609316328" duration="4902000" />
+      <workItem from="1626609316328" duration="5739000" />
+      <workItem from="1626714205343" duration="747000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit.">
       <created>1620162190654</created>
@@ -328,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626699157797</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added Index router for health check">
+      <created>1626704639713</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1626704639713</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +373,8 @@
     <MESSAGE value="Fixed Game logic when the match outcome is draw." />
     <MESSAGE value="Added entrypoint.sh to Dockerfile" />
     <MESSAGE value="Fixed error in Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed error in Dockerfile" />
+    <MESSAGE value="Added Index router for health check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Index router for health check" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
