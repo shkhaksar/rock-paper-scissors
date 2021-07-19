@@ -9,4 +9,4 @@ RUN npm ci --silent
 #Copy remaining files
 COPY . .
 EXPOSE 8000
-ENTRYPOINT ["bash","./entrypoint.sh"]
+ENTRYPOINT ["sh","./entrypoint.sh"]
